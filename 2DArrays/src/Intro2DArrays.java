@@ -1,6 +1,5 @@
 public class Intro2DArrays {
 	public static void main(String[] args) {
-		
 		//declaration
 		int[][] x = new int[3][4];	// [rows][columns]
 		
@@ -20,5 +19,7 @@ public class Intro2DArrays {
 			}
 		}
 		
+		//Alternative declaration/initialization
+		int[][] z = { {1,2}, {3,4} };
 	}
 }
